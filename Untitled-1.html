@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>t7s Birthday Gallery</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    body {
+      height: 100%;
+      background-image: url("img/bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    body,
+    select {
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    select {
+      width: 300px;
+      padding: 4px;
+      border: 2px solid #00c3ff;
+      border-radius: 16px;
+      background-color: white;
+    }
+
+    .gallery-item:hover {
+      border-color: #ff2edc;
+      /* Change border color on hover */
+    }
+
+    .gallery-item {
+      height: 300px;
+      background-color: #f0f0f0;
+      border: 3px solid #00c3ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    img {
+      width: 200px;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+      font-size: 130%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    <span class="material-symbols-outlined">
+      Cake
+    </span>t7s Birthday Gallery
+  </h1>
+  <aside style="padding-bottom: 20px;">
+    <div>
+      <label for="filterType">Filter by Type:</label>
+      <select id="filterType">
+        <option value="all">All</option>
+        <option value="vocalist">Vocalist</option>
+        <option value="variety">Variety</option>
+        <option value="model">Model</option>
+        <option value="player">Player</option>
+        <option value="dancer">Dancer</option>
+      </select>
+      <label for="filterMonth" style="padding-left: 20px;">Filter by Month:</label>
+      <select id="filterMonth">
+        <option value="all">All</option>
+        <option value="janua">January</option>
+        <option value="febru">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="augus">August</option>
+        <option value="septe">September</option>
+        <option value="octob">October</option>
+        <option value="novem">November</option>
+        <option value="decem">December</option>
+      </select>
+    </div>
+  </aside>
+  <div class="gallery">
+    <div class="gallery-item vocalist april"><img src="img/B01.jpg" alt="Haru BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist july "><img src="img/B02.jpg" alt="Musubi BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  may  "><img src="img/B03.jpg" alt="Rona BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   augus"><img src="img/B04.jpg" alt="Hime BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  janua"><img src="img/B05.jpg" alt="Momoka BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    septe"><img src="img/B06.jpg" alt="Sumire BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   febru"><img src="img/B07.jpg" alt="Sui BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    july "><img src="img/B08.jpg" alt="Shizuka BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   octob"><img src="img/B09.jpg" alt="Susu BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  april"><img src="img/B10.jpg" alt="Sawara BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist febru"><img src="img/B11.jpg" alt="Kajika BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   augus"><img src="img/B12.jpg" alt="Shinjyu BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    june "><img src="img/B13.jpg" alt="Sisala BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist augus"><img src="img/B14.jpg" alt="Kyoko BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  octob"><img src="img/B15.jpg" alt="Mimi BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   septe"><img src="img/B16.jpg" alt="Ferb BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    augus"><img src="img/B17.jpg" alt="Kazumi BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   march"><img src="img/B18.jpg" alt="Rena BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   may  "><img src="img/B19.jpg" alt="Honoka BIRTHDAY PARTY"></div>
+    <div class="gallery-item Vocalist march"><img src="img/B20.jpg" alt="Makoto BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   septe"><img src="img/B21.jpg" alt="Madoka BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  septe"><img src="img/B22.jpg" alt="Risyuri BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   janua"><img src="img/B23.jpg" alt="Yumeno BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    novem"><img src="img/B24.jpg" alt="Tasha BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   septe"><img src="img/B25.jpg" alt="Jedah BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  octob"><img src="img/B26.jpg" alt="Sawori BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  may  "><img src="img/B27.jpg" alt="Monaka BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  june "><img src="img/B28.jpg" alt="Ei BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   octob"><img src="img/B29.jpg" alt="Matsuri BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  decem"><img src="img/B30.jpg" alt="Tomoe BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   april"><img src="img/B31.jpg" alt="Miu BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   april"><img src="img/B32.jpg" alt="Xiao BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   novem"><img src="img/B33.jpg" alt="Manon BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    novem"><img src="img/B34.jpg" alt="Chacha BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist octob"><img src="img/B35.jpg" alt="Murasaki BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist febru"><img src="img/B36.jpg" alt="Miwako BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    novem"><img src="img/B37.jpg" alt="Ayumu BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    decem"><img src="img/B38.jpg" alt="Shirayuki BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   june "><img src="img/B39.jpg" alt="Hina BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   septe"><img src="img/B40.jpg" alt="Emoko BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist augus"><img src="img/B41.jpg" alt="Ume BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist decem"><img src="img/B42.jpg" alt="Hitoha/Futaba BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist july "><img src="img/B43.jpg" alt="Nicole BIRTHDAY PARTY"></div>
+    <div class="gallery-item vocalist octob"><img src="img/B44.jpg" alt="Mito BIRTHDAY PARTY"></div>
+    <div class="gallery-item player   may  "><img src="img/B45.jpg" alt="Mana BIRTHDAY PARTY"></div>
+    <div class="gallery-item dancer   decem"><img src="img/B46.jpg" alt="Qruit BIRTHDAY PARTY"></div>
+    <div class="gallery-item model    janua"><img src="img/B47.jpg" alt="Rui BIRTHDAY PARTY"></div>
+    <div class="gallery-item variety  march"><img src="img/B48.jpg" alt="Memoru BIRTHDAY PARTY"></div>
+    <!-- Add more items here -->
+  </div>
+  <script>
+    const filterTypeSelect = document.getElementById('filterType');
+    const filterMonthSelect = document.getElementById('filterMonth');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterTypeSelect.addEventListener('change', updateGallery);
+    filterMonthSelect.addEventListener('change', updateGallery);
+
+    function updateGallery() {
+      const selectedType = filterTypeSelect.value;
+      const selectedMonth = filterMonthSelect.value;
+
+      galleryItems.forEach(item => {
+        const typeMatch = selectedType === 'all' || item.classList.contains(selectedType);
+        const monthMatch = selectedMonth === 'all' || item.classList.contains(selectedMonth);
+
+        if ((typeMatch && monthMatch)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

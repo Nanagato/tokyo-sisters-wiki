@@ -1,0 +1,231 @@
+body,
+nav>ul {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/*Navigaton Bar*/
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav>ul>li {
+    margin: 0 20px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav>ul>li>a:hover {
+    color: lightgray;
+}
+
+
+/*Character Category Bars*/
+.charBar {
+    margin: 20px 10px 10px 10px;
+    padding: 5px 20px 5px;
+    width: auto;
+    color: white;
+    font-size: 120%;
+}
+
+.charBarNanasuta {
+    background-image: linear-gradient(to right, #0aaaf5, #0087d4);
+}
+
+.charBarRival {
+    background-image: linear-gradient(to right, #ff64ff, #ff18ff);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.container {
+    width: 180px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 533px) {
+    .container {
+        width: 45%;
+        height: 80px;
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 0px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+.containerBlue {
+    border-color: #0aaaf5;
+    color: #0aaaf5;
+    text-shadow: 0px 0px 2px white, 0 0 2px white, 0 0 2px white;
+}
+
+.containerBlue:hover {
+    color: white;
+    text-shadow: none;
+    background-color: #0aaaf5;
+}
+
+.containerPink {
+    border-color: #ff64ff;
+    color: #ff64ff;
+    text-shadow: 1px 1px 2px white, 0 0 20px white, 0 0 5px white;
+}
+
+.containerPink:hover {
+    color: white;
+    text-shadow: none;
+    background-color: #ff64ff;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+    border-top: 120px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 80px solid transparent;
+    position: absolute;
+}
+
+.container img {
+    pointer-events: none;
+}
+
+.charaHaru {
+    width: 200px;
+    margin-top: 190px;
+    margin-left: -110px;
+}
+
+.charaMusubi {
+    width: 210px;
+    margin-top: 218px;
+    margin-left: -110px;
+}
+
+.charaRona {
+    width: 195px;
+    margin-top: 180px;
+    margin-left: -108px;
+}
+
+.charaHime {
+    width: 190px;
+    margin-top: 188px;
+    margin-left: -102px;
+}
+
+.charaMomoka {
+    width: 185px;
+    margin-top: 172px;
+    margin-left: -108px;
+}
+
+.charaSumire {
+    width: 215px;
+    margin-top: 221px;
+    margin-left: -115px;
+}
+
+.charaSui {
+    width: 190px;
+    margin-top: 182px;
+    margin-left: -116px;
+}
+
+.charaShizuka {
+    width: 220px;
+    margin-top: 203px;
+    margin-left: -120px;
+}
+
+.charaSusu {
+    width: 200px;
+    margin-top: 205px;
+    margin-left: -110px;
+}
+
+.charaSawara {
+    width: 210px;
+    margin-top: 220px;
+    margin-left: -123px;
+}
+
+.charaKajika {
+    width: 190px;
+    margin-top: 187px;
+    margin-left: -107px;
+}
+
+.charaShinjyu {
+    width: 175px;
+    margin-top: 161px;
+    margin-left: -100px;
+}
+
+.charaHina {
+    width: 180px;
+    margin-top: 169px;
+    margin-left: -100px;
+}
+
+.charaEmoko {
+    width: 190px;
+    margin-top: 193px;
+    margin-left: -105px;
+}
+
+.charaUme {
+    width: 190px;
+    margin-top: 189px;
+    margin-left: -110px;
+}
+
+.charaHitoFuta {
+    width: 195px;
+    margin-top: 205px;
+    margin-left: -100px;
+}
+
+.charaName {
+    text-align: right;
+    word-spacing: 0.1;
+    position: absolute;
+    top: auto;
+    right: 5%;
+    line-height: 1;
+    font-size: 120%;
+}
