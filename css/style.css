@@ -5299,11 +5299,7 @@ hr {
 .chara-modal__txt {
     color: #000;
     font-family: "Noto Sans Thai", sans-serif;
-    font-weight: bold;
-}
-
-.chara-modal__txt-keep{
-      word-break: keep-all;
+    font-weight: 500;
 }
 
 .chara-modal__data {
