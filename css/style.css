@@ -5302,7 +5302,7 @@ hr {
     font-weight: bold;
 }
 
-.chara-modal__txt>span .non-break{
+.chara-modal__txt>p>.non-break{
       word-break: keep-all;
 }
 
