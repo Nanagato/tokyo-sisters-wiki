@@ -1416,10 +1416,6 @@ hr {
     padding-left: 4px;
 }
 
-.foot-main__sns>li:first-child {
-    padding-top: 2px;
-}
-
 .foot-main__sns>li>a {
     display: block;
 }
