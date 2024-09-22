@@ -1424,10 +1424,7 @@ hr {
     display: block;
 }
 
-.foot-main__sns-tw {
-    width: 33px;
-}
-
+.foot-main__sns-tw,
 .foot-main__sns-line,
 .foot-main__sns-fb,
 .foot-main__sns-Youtube {
