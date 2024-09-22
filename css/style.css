@@ -5302,6 +5302,10 @@ hr {
     font-weight: bold;
 }
 
+.chara-modal__txt>span .non-break{
+      word-break: keep-all;
+}
+
 .chara-modal__data {
     background-color: #fff;
 }
